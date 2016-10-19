@@ -75,7 +75,8 @@ namespace 录屏软件1
                 h = y2 - y1;
                 rec = new Rectangle(x1, y1, w, h);
                 Pen blackPen = new Pen(Color.Red, 2);
-                myGraphics.DrawRectangle(blackPen, rec);          
+                myGraphics.DrawRectangle(blackPen, rec);   
+                //
             }
         }
 
